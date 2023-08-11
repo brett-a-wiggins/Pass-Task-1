@@ -1,0 +1,67 @@
+table
+{
+    width: 600px;
+}
+th, td{
+    padding: 7px 10px 10px 10px
+}
+th.heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;    
+}
+tr.even{
+    background-color: #efefef;
+
+}
+tr:hover{
+    background-color: #c3e6e5;
+}
+
+fieldset{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+legend{
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+input[type="text"]{
+    width: 160px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+input[type="email"]{
+    width: 160px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="submit"]{
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid #006633;
+    background-color:  #00cc33;
+    color: #ffffff;
+    cursor: pointer;
+}

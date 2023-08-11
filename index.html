@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brett Wiggins 222441506</title>
+        <style>
+            img.large {
+                height: 500px;
+                width: 500px;
+                
+            }
+            img.medium{
+                height: 300px;
+                width: 300px;
+            }
+            img.small{
+                height: 100px;
+                width: 100px
+            }
+            img{
+                
+                display: inline-block;
+            }
+        </style>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 style="color: blue; font-family: Arial, Helvetica, sans-serif; text-align: center;">Pass Task 1 - Brett Wiggins - 222441506</h1>
+        <p>This pages uses CSS for styling the page. The following methods were used
+            to include syle in the page
+        </p>
+        <ul>
+            <li>In-line styles</li>
+            <li>Style tags in the html document</li>
+            <li>Uses an external Syle sheet</li>
+        </ul>
+        <h2>This is a table with two rows</h2>
+        <table width="400" cellpadding="10" cellspacing="5">
+            <tr>
+                <th></th>
+                <th scope="col" class="heading">Heading one</th>
+                <th scope="col" class="heading">Heading two</th>
+            </tr>
+            <tr>
+               <th scope="row">data one</th>
+               <td>150</td>
+               <td>200</td> 
+            </tr>
+            <tr class="even">
+                <th scope="row">data two</th>
+                <td>data</td>
+                <td>more data</td>
+            </tr>
+        </table>
+        <h2 style="text-align: center">This is an image at different sizes controlled by CSS</h2>
+        
+            <img  class="large" src="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="computer image of directoy listing"/>
+      
+            <img class="medium" src="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="computer image of directoy listing"/>
+
+            <img class="small" src="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="computer image of directoy listing"/>
+        <h2>This is a Form</h2>
+        <p>Please enter your name and email and leave us a message!</p>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Your Details</legend>
+                <label>
+                    Name:
+                    <input type="text" name="name" size="30" maxlength="100" required="required">
+                </label>
+                <br />
+                <label>
+                    Email:
+                    <input type="email" name="email" size="30" maxlength="100" required="required">
+                </label>
+                <br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Leave us a note.</legend>
+            
+            <p>
+                <label for="note">
+                    Note:
+                </label>
+                <br />
+                <textarea rows="4" cols="40" id="note"></textarea>
+            </p>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
